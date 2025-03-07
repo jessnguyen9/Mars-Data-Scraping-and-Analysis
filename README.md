@@ -1,25 +1,36 @@
-# module11-challenge
+# Mars Data Scraping and Analysis
 
-This repository contains Python scripts to scrape data from Mars websites and analyze the collected data. The project consists of two main parts:
+## Overview
+This project focuses on web scraping and data analysis to gather and analyze Mars-related data. The project is divided into two main deliverables:
+1. **Scraping Mars News Titles and Previews:** Automating the process of extracting news headlines and preview texts from a Mars news website to provide valuable insights on the latest discoveries and research related to Mars.
+2. **Scraping and Analyzing Mars Weather Data:** Extracting and analyzing Mars weather data, including temperature and atmospheric pressure, to better understand the climate conditions on Mars. This data is used to answer key questions about Mars' months, the coldest and warmest months, and atmospheric pressure patterns.
 
-**Part 1: Scrape Titles and Preview Text from Mars News**
+## Tools & Techniques Used
+**Splinter:** automates the browsing process, allowing us to navigate through the pages and fetch the necessary data.
 
-Use web scraping techniques to visit the Mars News website.
+**BeautifulSoup:** allows us to easily extract specific elements from a web page, such as text or table data, and transform it into a structured format that can be used for analysis.
 
-Extract the titles and preview text of the latest news articles.
+**Pandas:** used to manipulate and analyze the scraped data. In this project, it is used for answering key questions related to the Mars weather data.
 
-Store the scraping results in Python data structures.
+**Matplotlib:** used to plot bar charts and visually represent the analyzed data, such as the coldest and warmest months on Mars and the atmospheric pressure trends.
 
-Present the collected data as a list of dictionaries.
+**Data Scraping and Cleaning:** involves extracting raw data from the websites, followed by cleaning and structuring the data for analysis. In the first deliverable, news titles and previews are stored in dictionaries, while in the second deliverable, weather data is scraped from an HTML table and organized into a list for further analysis.
 
-**Part 2: Scrape and Analyze Mars Weather Data**
+## Deliverables:
+**Deliverable 1: Scrape Titles and Preview Text from Mars News**
+- **Objective:** Automate the process of extracting Mars news headlines and preview texts from the Mars news site.
+- **Result:** A Python list containing dictionaries of the news titles and preview texts from the Mars news site.
 
-Utilize web scraping techniques to visit the Mars Temperature Data Site.
+**Deliverable 2: Scrape and Analyze Mars Weather Data**
+- **Objective:** Extract and analyze Mars weather data, including temperature and atmospheric pressure, to answer various questions about Mars' climate.
+- **Result:** Analysis of Mars' months, coldest and warmest months, and atmospheric pressure patterns. The data is visualized in bar charts to highlight trends in temperature and atmospheric pressure over different months.
 
-Extract weather data in the form of an HTML table.
+![Average temp by month](https://github.com/user-attachments/assets/3c46afe0-ea8a-429d-a010-c571e012a695)
 
-Assemble the scraped data into a Pandas DataFrame.
+![Average pressure by month](https://github.com/user-attachments/assets/71207811-2a6f-4cf5-8f30-31e5e4f3236f)
 
-Determine the number of months on Mars, the number of Martian days worth of data, find the coldest and warmest months on Mars based on average minimum daily temperature, identify the months with the lowest and highest atmospheric pressure on Mars based on average daily pressure, and estimate the number of terrestrial (Earth) days in a Martian year.
+![Earth days in Martian years](https://github.com/user-attachments/assets/9d81681f-f0ef-405b-8e83-c65410bfd0ad)
 
-Export the DataFrame to a CSV file for further use.
+
+## Conclusion
+This project demonstrates the application of web scraping, data cleaning, and analysis techniques to uncover valuable insights about Mars’ climate. Through the use of Python libraries like Splinter, BeautifulSoup, Pandas, and Matplotlib, trends in temperature and atmospheric pressure were effectively analyzed. The findings reveal fascinating patterns of Martian weather, highlighting the extreme temperature differences and seasonal variations in atmospheric pressure, which are crucial for understanding the planet's environment.
