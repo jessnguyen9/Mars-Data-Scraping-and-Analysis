@@ -27,10 +27,17 @@ This project focuses on web scraping and data analysis to gather and analyze Mar
 
 ![Average temp by month](https://github.com/user-attachments/assets/3c46afe0-ea8a-429d-a010-c571e012a695)
 
+The data showed a significant fluctuation in temperature across Martian months:
+- **Coldest Month:** The third month of Mars’ year is the coldest, with an average temperature of -83.31°C.
+- **Warmest Month:** The eighth month is the warmest, with an average temperature of -68.38°C. These findings highlight the extreme temperatures experienced on Mars, even in its warmest month.
+
 ![Average pressure by month](https://github.com/user-attachments/assets/71207811-2a6f-4cf5-8f30-31e5e4f3236f)
 
-![Earth days in Martian years](https://github.com/user-attachments/assets/9d81681f-f0ef-405b-8e83-c65410bfd0ad)
+The dataset also provided insights into atmospheric pressure:
+- **Highest Pressure:** The ninth month experiences the highest atmospheric pressure.
+- **Lowest Pressure:** The sixth month has the lowest atmospheric pressure. This insight is critical for understanding the seasonal variations on Mars and how these might impact surface conditions.
 
+The analysis of Martian temperature data over Earth days revealed an interesting observation about Mars' orbit. By examining the temperature data trends, it was estimated that a Martian year is approximately 687 Earth days, confirming known information about Mars' longer orbit around the Sun compared to Earth.
 
 ## Conclusion
 This project demonstrates the application of web scraping, data cleaning, and analysis techniques to uncover valuable insights about Mars’ climate. Through the use of Python libraries like Splinter, BeautifulSoup, Pandas, and Matplotlib, trends in temperature and atmospheric pressure were effectively analyzed. The findings reveal fascinating patterns of Martian weather, highlighting the extreme temperature differences and seasonal variations in atmospheric pressure, which are crucial for understanding the planet's environment.
